@@ -11,7 +11,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux
 
 @Component
 @Primary
-@EnableSwagger2WebFlux
 @EnableConfigurationProperties(ApiProperties::class)
 class SwaggerProvider(
     val routeLocator: RouteLocator,

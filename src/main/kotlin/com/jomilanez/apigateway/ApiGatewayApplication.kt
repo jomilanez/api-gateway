@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseStatus
 import org.springframework.web.bind.annotation.RestController
+import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux
 
 @EnableCircuitBreaker
 @SpringBootApplication
+@EnableSwagger2WebFlux
 class ApiGatewayApplication
 
 fun main(args: Array<String>) {
